@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.container1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.image {
+  height: 20%;
+  width: 50%;
+  margin: 50px;
+}
+.searchContainer {
+  width: 90%;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: #bfbfbf 2px 2px 2px 2px;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.searchCross {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.searchIcon {
+  height: 20px;
+  width: 20px;
+}
+.search {
+  height: 40px;
+  width: 70%;
+  outline: none;
+  border-style: solid;
+  border-width: 0px;
+}
+.unorderList {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .container1 {
+    padding: 50px;
+  }
+  .image {
+    height: 20%;
+    width: 50%;
+    margin: 30px;
+  }
+  .searchContainer {
+    width: 90%;
+    box-shadow: #bfbfbf 4px 4px 4px 4px;
+    border-radius: 12px;
+    padding: 12px;
+  }
+  .searchIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .search {
+    height: 60px;
+  }
+}
